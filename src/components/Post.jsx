@@ -2,6 +2,7 @@ import React from "react";
 import { Favorite, FavoriteBorder, MoreVert, Share } from "@mui/icons-material";
 import {
   Avatar,
+  Box,
   Card,
   CardActions,
   CardContent,
@@ -14,8 +15,6 @@ import {
 
 const Post = () => {
   return (
-    <div>
-      {" "}
       <Card sx={{margin:5}}>
         <CardHeader
           avatar={
@@ -56,7 +55,6 @@ const Post = () => {
           </IconButton>
         </CardActions>
       </Card>
-    </div>
   );
 };
 
